@@ -19,7 +19,7 @@ export class ApiService {
       );
   }
 
-  public getWithHttpResonseData<T>(url: string): Observable<HttpResponse<T>> {
+  public getWithHttpResponseData<T>(url: string): Observable<HttpResponse<T>> {
     return this.http
       .get<T>(url, {observe: 'response'})
       .pipe(

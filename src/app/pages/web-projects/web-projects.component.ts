@@ -33,7 +33,7 @@ export class WebProjectsComponent implements OnInit, OnDestroy {
 
   public getPhotos(page: number = 1): void {
     this.loading = true;
-    this.apiService.getWithHttpResonseData<Array<IPhoto>>(`api/photos/?page=${page}`)
+    this.apiService.getWithHttpResponseData<Array<IPhoto>>(`api/photos/?page=${page}`)
       .pipe(takeUntil(this.destroy$))
       .subscribe((res) => {
       this.photos = res.body;
