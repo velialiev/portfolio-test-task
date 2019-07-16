@@ -4,7 +4,7 @@
     <img class="project-poster" *ngFor="let photo of photos" [src]="photo.urls.small" alt="">
   </div>
   <h2 class="main-title loading-title" *ngIf="loading">Loading...</h2>
-  <app-pagination *ngIf="!loading"
+  <app-pagination *ngIf="!loading && numberOfPages > 1"
                   [currentPage]="currentPage"
                   [numberOfPages]="numberOfPages"
                   (changePageEmitter)="getPhotos($event)"></app-pagination>
