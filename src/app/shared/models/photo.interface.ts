@@ -14,8 +14,7 @@ export interface IPhoto {
   liked_by_user: boolean;
   description: string;
   user: IUser;
-  current_user_collections:
-    Array<IUserCollection>;
+  current_user_collections: Array<IUserCollection>;
   urls: IUrls;
   links: ILinks;
 }
