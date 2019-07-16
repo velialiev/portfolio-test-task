@@ -1,0 +1,15 @@
+.home-wrapper {
+  width: 100vw;
+  height: 100vh;
+  .blured-background {
+    background-image: url(../../../assets/img/home-bg.jpg);
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

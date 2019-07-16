@@ -1,0 +1,23 @@
+.web-projects-wrap {
+  height: 100vh;
+  background-color: #bab6b6;
+  display: flex;
+  flex-direction: column;
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+.main-title {
+  margin-top: 60px;
+  text-align: center;
+}
+.loading-title {
+  color: red;
+}
+.project-poster {
+  width: 20%;
+  height: 200px;
+  object-fit: cover;
+}

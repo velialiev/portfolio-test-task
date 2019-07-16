@@ -1,0 +1,42 @@
+[
+	{
+		"title": "High-load application development",
+		"description": "Business oriented, user friendly, nice looking, easy for maintenance, architecturally scalable, self – explaining code. This is which application must be."
+	},
+	{
+		"title": "Technology Consulting",
+		"description": "Our technology team helps accelerate the successful impact digital can have. We advise organizations on how best to use Information Technology in achieving their business objectives. With the proper combination of software, you can successfully solve the toughest business challenges within the standard workflows. We solve business problems through the design of technology strategies and delivery of enterprise applications."
+	},
+	{
+		"title": "Technical Audit",
+		"description": "Estimation of the application real worth, time and resources to develop. Architectural / code / environment analyzing. Report on overall quality of the product."
+	},
+	{
+		"title": "Platform rebuilding",
+		"description": "With over 15 years of experience in building high traffic portals, we know how to scale and what PITFALLS to avoid. Our approach roots in the classic component-oriented design."
+	},
+	{
+		"title": "Application management",
+		"description": "Application 24×7. This is where we excel, because we have the tools and more than 15 years of experience in management of high traffic applications."
+	},
+	{
+		"title": "Peak Resources",
+		"description": "Part or full time Developers available in a short time to close immediate project needs, compensate broken deadlines or hire additional resources for particular project."
+	},
+	{
+		"title": "Handling problems",
+		"description": "There are a lot of possible performance problems you may encounter. We will help you to find them, eliminate them and ensure that they won’t go unnoticed next time."
+	},
+	{
+		"title": "Complex System Engineering",
+		"description": "We utilize systems thinking principles to organize IT development process and focus on how to design and manage complex systems over their life cycles. We discover the real problems that need to be resolved, identifying the most probable or highest impact failures that can occur and find solutions to these problems."
+	},
+  {
+    "title": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+  },
+  {
+    "title": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+  }
+]

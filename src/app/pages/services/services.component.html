@@ -1,0 +1,16 @@
+<div class="wrap">
+  <div class="introducing">
+    <div class="blured-background"></div>
+    <div class="content">
+      <h1 class="main-title">We provide <span>best</span> quality and speed</h1>
+      <h2 class="sub-title _link" (click)="scrollToElement(featuresTitle)"><span>Click here</span> or <span>scroll down</span> for details</h2>
+    </div>
+  </div>
+  <h1 class="main-title features-title" #featuresTitle>Our features</h1>
+  <div class="features">
+    <div *ngFor="let feature of features" class="feature">
+      <div class="title">{{feature.title}}</div>
+      <div class="description">{{feature.description}}</div>
+    </div>
+  </div>
+</div>

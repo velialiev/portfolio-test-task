@@ -1,0 +1,22 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  box-sizing: border-box;
+  .menu-item {
+    color: #fff;
+    margin-right: 25px;
+    font-size: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.30s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    &._active {
+      border-bottom-color: #fff;
+    }
+    &:hover {
+      border-bottom-color: #fff;
+    }
+  }
+}
